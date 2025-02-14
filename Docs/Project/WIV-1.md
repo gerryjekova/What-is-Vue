@@ -2,10 +2,14 @@
 > Here I will be using more of my thought and actual Steps process. 
 >> We came to a conclusion with my GPT Fifi that we are going to use the Vue CLI 
 >>> For some reason Fifi got confused and assumed I have Node.js installed (which I do) and we are starting by installing the VUE CLI globally on my machine
->>> ```npm install -g @vue/cli```
+```
+npm install -g @vue/cli
+```
 >>> ![терминал](assets/terminal-vue-install.png) 
 >>>> *it is looking alright, but maybe I should have used something other than npm as package manager* 💭
->>>>> `vue --version`
+```
+vue --version
+```
 >>>>> ![terminal](assets/vue-version-terminal.png)
 
 ## Initializing Vue Project
@@ -19,6 +23,13 @@ vue create what-is-vue
 >>>>> I decided to add the additional Progressive Web App (PWA) Support for potential experimental purposes in the future 💭⭐
 >>>>> ![alt text](assets/1st-app-configurations-terminal.png)
 >>>>>>> Final config looks like this: ![alt text](assets/final-configuration-terminal.png)
->>>>>>>> moved to app directory -> `cd what-is-vue` -> then ran script to launch the development server `npm run serve` 
+>>>>>>>> moved to app directory ->
+```
+cd what-is-vue
+```
+- then ran script to launch the development server
+```
+npm run serve
+``` 
 >>>>>>>> ![alt text](assets/dev-server-launch.png)
 >>>>>>>>> -> App is working on local: ![alt text](assets/APP-Default-Local.png)
