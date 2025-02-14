@@ -145,4 +145,109 @@
 
 ---
 
-🔹 **Let me know if you want adjustments based on your timeframe!** What kind of UI design are you rendering—do you already have a reference, or do you need ideas?
+> WIV = What Is Vue
+# We came to a further conclusion that we are using Vue CLI in VSCode and I will begin the project with this. Will document the process and steps in regards to this in Docs/Project/WIV-1.md  
+
+
+## **🛠 Step 1: Install Vue CLI**  
+Since you already have **Node.js** installed, we’ll now install Vue CLI globally.  
+
+### **1️⃣ Open VSCode & Terminal**  
+- Open your terminal inside VSCode (`Ctrl + ~` or `Terminal > New Terminal`).  
+
+### **2️⃣ Install Vue CLI**  
+Run:  
+```sh
+npm install -g @vue/cli
+```
+This installs Vue CLI globally so you can use it anywhere.  
+
+### **3️⃣ Verify the Installation**  
+Check if Vue CLI installed correctly:  
+```sh
+vue --version
+```
+You should see a version number (e.g., `@vue/cli 5.x.x`). If you get an error, let me know.  
+
+
+
+## **🛠 Step 2: Create a New Vue Project**  
+Now, let’s create your Vue project.  
+
+### **1️⃣ Run the Project Creation Command**  
+```sh
+vue create my-vue-project
+```
+It will ask you to choose a preset:  
+- **Select "Manually select features"** (this gives us control).  
+- Use the arrow keys to choose features:  
+  - ✅ **Babel** (needed for JS compatibility)  
+  - ✅ **Vue Router** (for navigation)  
+  - ✅ **Vuex** (state management, optional but good to know)  
+  - ✅ **ESLint** (code quality, optional)  
+  - (Skip TypeScript unless you want it)  
+- **Press Space to select** a feature, then **Enter** to continue.  
+
+
+
+## **🛠 Step 3: Move Into the Project & Start It**  
+After Vue CLI sets up the project, navigate into it:  
+```sh
+cd my-vue-project
+```
+Run the development server:  
+```sh
+npm run serve
+```
+You should see:  
+```
+App running at:
+http://localhost:8080/
+```
+Open that in your browser—you should see the default Vue welcome page! 🎉  
+
+
+
+## **🛠 Step 4: Open in VSCode & Set Up Git**  
+1️⃣ Open the project in VSCode:  
+```sh
+code my-vue-project
+```
+2️⃣ Initialize Git:  
+```sh
+git init
+git add .
+git commit -m "Initial commit - Set up Vue CLI project"
+```
+3️⃣ If you haven’t created a GitHub repo yet, do so at [GitHub](https://github.com/) and get the repo link. Then link your local repo:  
+```sh
+git remote add origin <your-github-repo-url>
+git branch -M main
+git push -u origin main
+```
+
+
+
+## **🛠 Step 5: Project Structure Overview**  
+Your project now has this structure:  
+```
+/my-vue-project
+│── /src
+│   │── /assets
+│   │── /components  <-- Where you'll create Vue components
+│   │── /views       <-- Where you'll define pages (if using Vue Router)
+│   │── App.vue      <-- Main component
+│   │── main.js      <-- Entry point
+│── /public
+│── index.html
+│── package.json
+│── README.md
+```
+Now Vue is **installed, running, and linked to GitHub**.  
+
+
+
+### **📌 Next Steps**
+1️⃣ **Confirm the Vue app runs at `localhost:8080`.**  
+2️⃣ **Push everything to GitHub** and check that the repo is updated.  
+3️⃣ **Start learning Vue basics**—I’ll guide you next.  
