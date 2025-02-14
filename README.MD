@@ -2,8 +2,8 @@
 > a Custom GPT is just ChatGPT with extra customizations tailored to specific needs. Fifi is my custom GPT that I have made for the purpose of studying, analysis, brainstorming & project management. I have trained her for these purposes, therefore I prefer to use her for this, rather than just normal ChatGPT. 
 - The below part of the README is the first response I got after I requested a structured learning path for Vue JS before I start the tutorials on the basics. 
 - There will be further commits with the steps I take broken down intuitively and I will also commit them step-by-step to make the processes I go through visible. 
-- Do not take the below generated guide as a guideline for this project. The steps will be documented separately in a Docs dedicated directory with more .md files like this one and they will be linked here in the end. 
-- Any future conversations with Fifi or any AI in regards to the project will also be stored in their own .md file in the Docs dedicated directory. 
+- Do not take the below generated guide as a guideline for this project. The steps will be documented separately in a [Docs](https://github.com/gerryjekova/What-is-Vue/tree/main/Docs/AI-Brainstorming) dedicated directory with more .md files like this one and they will be linked here in the end. 
+- Any future conversations with Fifi or any AI in regards to the project will also be stored in their own .md file in the [Docs](https://github.com/gerryjekova/What-is-Vue/tree/main/Docs/AI-Brainstorming) dedicated directory. 
 - I now proceed to dissect the below study plan that was suggested by Fifi and commit onto the project. 
 - I will be using VSCode as IDE. 
 ---
