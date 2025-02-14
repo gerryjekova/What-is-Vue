@@ -1,3 +1,4 @@
+# [How to Start the App](https://github.com/gerryjekova/What-is-Vue/blob/main/Docs/Project/WIV-1.md)
 - Firstly I went to my [Custom GPT - Fifi](https://chatgpt.com/g/g-674259cb1c0881919c42c6a6d42ea0be-fifi).
 > a Custom GPT is just ChatGPT with extra customizations tailored to specific needs. Fifi is my custom GPT that I have made for the purpose of studying, analysis, brainstorming & project management. I have trained her for these purposes, therefore I prefer to use her for this, rather than just normal ChatGPT. 
 - The below part of the README is the first response I got after I requested a structured learning path for Vue JS before I start the tutorials on the basics. 
